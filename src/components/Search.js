@@ -38,7 +38,7 @@ function Search() {
   }, []);
 
   return (
-    <div className="col-md-10 col-lg-3 px-0 form-group mb-5 mx-auto dropdown ">
+    <div className="col-md-10 col-lg-4 px-0 form-group mb-5 mx-auto dropdown ">
       <input
         ref={inputRef}
         type="text"
