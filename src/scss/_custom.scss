@@ -1,0 +1,32 @@
+* {
+  scrollbar-color: $scroll-bg transparentize($white, 1);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: $scroll-bg;
+  border-radius: 10px;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.dropdown-menu {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.custom-search {
+  outline: none;
+  border: 0;
+  box-shadow: 2px 2px 8px #00000020;
+  &:focus {
+    box-shadow: 2px 2px 8px #00000060;
+  }
+}
